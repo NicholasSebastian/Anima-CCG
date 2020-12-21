@@ -1,0 +1,124 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-size: 16px;
+    color: #fff;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#frame {
+    width: 100vw;
+    height: calc(100vw * 0.48); /* Aspect Ratio */
+}
+
+#home {
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(#4c332f, #251a22);
+    display: grid;
+    grid-template-columns: 120px auto;
+    overflow: hidden;
+}
+
+#sidenav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #251a22;
+    border-top: 1px solid #bd975a;
+    border-left: 2px solid #bd975a;
+    border-bottom: 1px solid #bd975a;
+    box-shadow: -10px 0 50px #000 inset;
+}
+
+#sidenav button {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #2e2020;
+    width: 100px;
+    height: 80px;
+    color: #ddd;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#sidenav button:hover {
+    background-color: #361f25;
+}
+
+#sidenav button:focus {
+    outline: none;
+}
+
+#game {
+    width: inherit;
+    height: inherit;
+    background-image: url("assets/game-bg-tile.png");
+    background-repeat: repeat;
+    box-shadow: inset 0 0 200px #000; /* Vignette */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#game > .player-portrait {
+    background-image: url("assets/game-portrait-frame.png");
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 50px #000;
+    width: 20vh;
+    height: 20vh;
+}
+
+#game > .card-space {
+    border: 1px solid #f00;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 0 10px;
+    background-color: #000; /* Fallback color */
+    background-size: cover;
+    border: 8px ridge;
+    border-radius: 10%;
+    width: 150px;
+    height: 200px;
+    position: relative;
+}
+
+.card > div {
+    position: absolute;
+    bottom: -12px;
+    border: 4px outset;
+    border-radius: 20%;
+    padding: 4px 8px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.card > div:first-child {
+    background-color: blue;
+    border-color: darkblue;
+    left: -15px;
+}
+
+.card > div:last-child {
+    background-color: red;
+    border-color: darkred;
+    right: -15px;
+}

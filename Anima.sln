@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anima", "Anima.csproj", "{1B74070D-5213-4F13-9AF3-A5739ACC8591}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B74070D-5213-4F13-9AF3-A5739ACC8591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B74070D-5213-4F13-9AF3-A5739ACC8591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B74070D-5213-4F13-9AF3-A5739ACC8591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B74070D-5213-4F13-9AF3-A5739ACC8591}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BD60E77-F4BA-44C9-9E5C-9B867B59FE91}
+	EndGlobalSection
+EndGlobal
